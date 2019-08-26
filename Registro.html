@@ -23,7 +23,7 @@
     <main>
       <h2>Registro</h2>
     <article>
-      <form  action="index.html">
+      <form  action="Registro.html">
         <fieldset>
           <legend><em>Nuevo Usuario</em></legend>
           <br>
@@ -38,16 +38,35 @@
 			 	     <input type="text" name="contraseña" placeholder="********" required>
 			    </p>
           <p>
-          <label for="confirmacion">Confirmacion De Contraseña*</label>
+          <label for="confirmacion">Confirmacion de contraseña*</label>
           <br>
 			 	     <input type="text" name="confirmacion" placeholder="********" required>
 			    </p>
 			    <p>
 				    <input type="submit" value="Enviar">
 			    </p>
+          <p>
+		          <label for="genre">Donde nos vió: </label>
+		          <br>
+		          <input type="radio" name="Where"> Google
+		          <input type="radio" name="other"> Otro
+	        </p>
+          <p>
+		          <label for="comment">Comentarios: </label>
+		      <br>
+		          <textarea name="comment" id="" cols="30" rows="3"></textarea>
+	        </p>
+	        <p>
+		          <label for="accept">Acepto términos y condiciones* </label>
+	        <br>
+		          <input type="checkbox" name="accept">
+	        </p>
+          <p>
+		          <input type="submit" value="Continuar">
+	        </p>
         </form>
     </article>
-      <hr>
+    <hr>
     </main>
 
     <footer>
